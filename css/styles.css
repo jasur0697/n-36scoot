@@ -221,7 +221,8 @@ img {
 .instruction__list {
   display: flex;
   list-style-type: none;
- 
+  justify-content: space-between;
+  padding: 0;
 }
 
 
@@ -307,6 +308,141 @@ img {
   color: var(--decription-color-grey);
   width: 350px;
 }
+
+
+/* Features */
+
+
+.features {
+  margin-bottom: 178px;
+}
+
+.feature__heading {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  margin: 0;
+}
+
+.feature__desc {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+
+/* Features 1 part */
+
+.feature__telemetry {
+  display: flex; 
+  align-items: center;
+  position: relative;
+}
+
+.feature__telemetry::before {
+  content: "";
+  background-image: url(../images/features_1_line.svg);
+  background-repeat: no-repeat;
+  right: calc(-490px);
+  position: absolute;
+  z-index: 12;
+  width: 1079px;
+  height: 445px;
+}
+
+.telemetry__content {
+  width:445px;
+}
+
+.feature__girl {
+  border-radius: 50%;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Features 2 part */
+
+.feature__nearby {
+  display: flex; 
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-top:160px;
+}
+
+.feature__nearby::before {
+  content: "";
+  background-image: url(../images/feautures_2_line.svg);
+  background-repeat: no-repeat;
+  left: calc(-530px);
+  position: absolute;
+  z-index: 12;
+  width: 1079px;
+  height: 445px;
+}
+
+
+.nearby__content{
+  width:445px;
+}
+
+.feature__city {
+  border-radius: 50%;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* Features 3 part */
+
+
+.feature__hassle {
+  display: flex; 
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin-top:160px;
+}
+
+.feature__hassle::before {
+  content: "";
+  background-image: url(../images/feature_3_line.svg);
+  background-repeat: no-repeat;
+  right: calc(-860px);
+  position: absolute;
+  z-index: 12;
+  width: 1079px;
+  height: 445px;
+}
+
+
+.hassle__content {
+  width:445px;
+}
+
+.feature__money {
+  border-radius: 50%;
+  margin-left: auto;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+
+
 
 /* Footer section */
 
@@ -467,6 +603,20 @@ img {
   fill:var(--color-primary-white);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ABOUT PAGE // */
 
 .hero__about {
@@ -501,4 +651,6 @@ img {
   padding:72px 0;
   margin: 0;
 }
+
+
 
