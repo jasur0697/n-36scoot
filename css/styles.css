@@ -169,16 +169,7 @@ img {
   z-index: 1;
 }
 
-.hero::before {
-  content: "";
-  background-image: url(../images/heading__lines.svg);
-  width:1200px ;
-  height: 170px;
-  position: absolute;
-  left: 260px;
-  top: 340px;
-  z-index: 100;
-}
+
 
 .hero::after {
   content: "";
@@ -203,6 +194,19 @@ img {
   letter-spacing: -2.5px;
   width:500px;
   margin: 0;
+  position: relative;
+  z-index: 1;
+  }
+
+  .hero__heading::before {
+    content: "";
+    background-image: url(../images/heading__lines.svg);
+    width:1200px ;
+    height: 170px;
+    position: absolute;
+    left: calc(-160px);
+    top: calc(340px);
+    z-index: 100;
   }
 
 .hero__bottom-container {
@@ -339,8 +343,6 @@ img {
   letter-spacing: -2.14286px;
   margin: 0;
   color: var(--color-primary-grey);
-  position: relative;
-  z-index: 1;
 }
 
 
