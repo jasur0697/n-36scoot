@@ -139,7 +139,10 @@ img {
   font-weight: bold;
   font-size: 15px;
   line-height: 25px;  
-  padding: 14px 39px;
+  width: 180px ;
+  height: 53px;
+  text-align: center;
+  padding:14px 0;
   border: 3px solid transparent;
   text-decoration: none;
   transition: all 0.3s ease 0s;
@@ -982,4 +985,152 @@ height: 10px;
 background-image: url("../images/arrow.svg");
 background-repeat: no-repeat;
 background-position: center center;
+}
+
+
+
+/* Careers */
+
+.position__list {
+  list-style-type: none;
+  margin-bottom: 134px;
+
+}
+
+.position__item {
+  background-color: #F2F5F9;
+  display: flex;
+  align-items: center;
+  padding: 32px 64px 35px 40px;
+  margin-bottom:24px ;
+}
+
+.position__title {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: var(--color-primary-grey);
+  margin: 0;
+}
+
+.position__location {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--color-primary-grey);
+  margin: 8px 0 0 0;
+}
+
+
+.city__list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  position: relative;
+  z-index: 1;
+}
+
+.city__names {
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: -1.07143px;
+  color: var(--color-primary-grey);
+}
+
+.world-map {
+  margin-top: 130px;
+  margin-bottom: 120px;
+}
+
+.york {
+  position: absolute;
+  background-image: url(../images/orange_elem.svg);
+  display: block;
+  width: 189px;
+  padding:22px 0;
+  top:25% ;
+  left: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.london {
+  position: absolute;
+  background-image: url(../images/orange_elem.svg);
+  display: block;
+  width: 189px;
+  padding:22px 0;
+  top:19% ;
+  left: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yokohama {
+  position: absolute;
+  background-image: url(../images/orange_elem.svg);
+  display: block;
+  width: 189px;
+  padding:22px 0;
+  top:27% ;
+  right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jakarta {
+  position: absolute;
+  background-image: url(../images/orange_elem.svg);
+  display: block;
+  width: 189px;
+  padding:22px 0;
+  bottom:42% ;
+  right: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Not-listed */
+
+.not-listed__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 122px;
+}
+
+.n-listed__heading {
+  width: 351px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+  margin: 0;
+}
+
+.n-listed__desc {
+  font-family: Lexend Deca;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--decription-color-grey);
+  width: 445px;
 }
